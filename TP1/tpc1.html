@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="UTF-8"> <!--Aceitar caracteres portugueses-->
+  <style>
+ 
+    h1,h2{  /*Headers*/
+      font-size: 40px;
+      text-align: center;
+      }
+
+    div.background { /*Background com bandeira*/
+      background: url("Flag_of_Italy.svg") repeat;
+      border: 2px solid black;
+    }
+
+    div.transbox { /*Caixa de texto com descrição.*/
+      margin: 30px;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8;
+      filter: alpha(opacity=60);
+      }
+
+      div.transbox p { /*Texto na caixa*/
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+      }
+
+      /*
+          Tabela 
+        */
+
+      #it_Tab {   /*Estrutura basica da tabela,onde tem o conteudo da tabela, as linhas de fundo branco*/
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        text-align: center;
+        width: 70%; /*Percentagem geral em toda a pagina*/
+        margin:auto;
+      }
+
+      /*Para data e header*/
+      #it_Tab td, #it_Tab th { 
+        padding: 10px;
+        margin:auto;
+        background-color: #ddd;
+        border: 1px solid black;
+      }
+
+      /*Para o Data*/
+      #it_Tab td{
+        border: 1px solid black;
+      }
+
+      /*ROWS*/
+      #it_Tab tr{
+        background-color: #ddd; /*Light grey*/
+        border: 1px solid black;
+        }
+
+      #it_Tab th {  /*Header -> ou seja a linha de topo*/
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color:rgb(4, 74, 43);
+        color: white;
+        border: 1px solid black;
+        }
+
+  /*
+    Fim da tabela
+  */
+
+
+
+
+
+
+/*
+Galaria
+*/
+      div.gallery {
+        margin: auto; /*Para centrar tudo*/
+        border: 1px solid black;
+         width: 180px;
+        }
+
+        div.gallery:hover { /*Passar o rato por cima*/
+          border: 3px solid red;
+        }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+        }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+        }
+/*
+Fim Da Galaria
+*/
+    </style>
+  </head>
+    <body>
+
+          <div class="background">
+            <h1>Itália</h1>
+
+          <div class="transbox">  
+            <p>Itália é uma república parlamentar unitária localizada no centro-sul da Europa.
+                 No norte, faz fronteira com França, Suíça, Áustria e Eslovênia.</p>
+          </div>
+              <h2>Informações basicas sobre o país</h2>
+
+
+    <table id="it_Tab">   <!--Conteudo da tabela-->
+  
+
+      <tr>  <!--Linhas-->
+
+          <th>Fundação</th> <!--th -> celula header -> ou seja, onde temos o header, a linha de topo-->
+          <th>População</th>
+          <th>Capital</th>
+          <th>Área</th>
+          <th>Lingua</th>
+      </tr>
+  
+      <tr>
+          <td>17 de Março de 1861</td>  <!-- Celulas de data, onde temos o conteudo da tabela.-->
+          <td>60 665 551</td>
+          <td>Roma</td>
+          <td>301 338 km² </td>
+          <td>Italiano</td>
+      </tr>
+    </table>
+
+
+  <br>
+
+  <h2>Locais a visitar</h2>
+
+
+
+  <!--Locais a visitar-->
+
+
+    <div class="gallery">
+        <a target="_blank" href="veneza.jpg">
+          <img src="veneza.jpg" alt="Veneza" width="600" height="400">
+        </a>
+        <div class="desc">Ponte Rialto, Veneza</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="coliseu.jpg">
+          <img src="coliseu.jpg" alt="coliseu" width="600" height="400">
+         </a>
+        <div class="desc">Colosseum, Roma</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="pisa.jpg">
+          <img src="pisa.jpg" alt="pisa" width="600" height="400">
+        </a>
+         <div class="desc">Torre Pisa, Pisa</div>
+      </div>
+
+    <div class="gallery">
+        <a target="_blank" href="piazzale.jpg">
+          <img src="piazzale.jpg" alt="piazzale" width="600" height="400">
+        </a>
+        <div class="desc">Piazzale Michelangelo, Florença</div>
+    </div>
+</div>
+
+
+</body>
+</html>
