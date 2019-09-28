@@ -1,0 +1,8 @@
+a)
+//ARQELEM[TIPO/@ASSUNTO="arqueossitio"][CONCEL[contains(text(),"Amares")]]/IDENTI
+
+b)
+//ARQELEM[TIPO/@ASSUNTO="arqueossitio"]/CONCEL
+
+c)
+//ARQELEM[TIPO/@ASSUNTO="arqueossitio"][CONCEL[contains(text(), "Montalegre")]]/DESCRI

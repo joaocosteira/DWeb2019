@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Defenir o dtd que permitirá defenir o conteudo da pagina web existente no seguinte link:
+    http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/PR.htm
+-->
+
+<!--
+A pagina é constituida por 5 secções principais, separadas por uma linha horizontal no html
+-->
+<!ELEMENT registo-de-projeto (título-projeto, cabeçalho, workteam, abstract, deliverables) >
+<!ELEMENT título-projeto (#PCDATA)>     
+
+<!--
+    Segunda secção da página web
+-->
+<!ELEMENT cabeçalho (key-name,title,sub-title?,datas, supervisor) >
+<!ELEMENT key-name (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT sub-title (#PCDATA)>
+<!ELEMENT datas (data-inicial, data-final?) >
+<!ELEMENT data-inicial (#PCDATA) >
+<!ELEMENT data-final (#PCDATA) >
+<!ELEMENT supervisor (#PCDATA) >
+<!ATTLIST supervisor
+    href CDATA #REQUIRED>
+
+<!ELEMENT workteam (elemento-equipa+) >
+<!ELEMENT elemento-equipa (nome, número, email, links?) >
+<!ELEMENT  nome (#PCDATA) >
+<!ELEMENT número (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT links (link+) > <!--Podemos ter um conjunto de links, um obrigatorio-->
+<!ELEMENT link (#PCDATA) >
+<!ATTLIST link
+    href CDATA #REQUIRED>
+
+<!ELEMENT abstract (paragrafos) >
+<!ELEMENT paragrafos (p+) >     <!--Os paragrafos podem ter texto, info a bold ou italico-->
+<!ELEMENT p (#PCDATA | b | i|link)* >
+<!ELEMENT b (#PCDATA) >
+<!ELEMENT i (#PCDATA) >
+<!ELEMENT deliverables (p|link)+ > <!--Descrição final-->

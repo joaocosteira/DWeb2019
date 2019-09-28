@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE registo-de-projeto SYSTEM "file:/Applications/Oxygen%20XML%20Editor/Oxygen%20XML%20Editor.app/PR.dtd">
+<registo-de-projeto>
+    <título-projeto>
+        Project Record
+    </título-projeto>
+    <cabeçalho>
+        <key-name>
+            MIEI_DWeb_2019_2020
+        </key-name>
+        <title>
+            Relatório
+        </title>
+        <sub-title>
+            Trabalho para casa número 2
+        </sub-title>
+        <datas>
+            <data-inicial>
+                28/09/2019
+            </data-inicial>
+            <data-final>
+                28/09/2019
+            </data-final>
+        </datas>
+        <supervisor href="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </cabeçalho>
+    <workteam>
+        <elemento-equipa>
+            <nome>
+                João Costeira Faria Gomes
+            </nome>
+            <número>
+                A78073
+            </número>
+            <email>
+                a78073@alunos.uminho.pt
+            </email>
+            <links>
+                <link href="https://github.com/joaocosteira/DWeb2019">GitHub</link>
+            </links>
+        </elemento-equipa>
+    </workteam>
+    <abstract>
+        <paragrafos>
+            <p>O objetivo deste trabalho era reproduzir o conteudo de uma pagina html 
+                de acordo com um dtd definido pelo aluno.
+            </p>
+            <p>
+                O criterio de utilização foi separar o ficheiro em 5 secções principais, devido ao facto
+                da pagina html possuir 5 secções separadas por linhas horizontais.
+            </p>
+            
+            <p>
+                No cabeçalho podemos representar toda a informação de acordo com a página. De acrescentar a
+                opção de adicionar um sub-titulo e uma data de terminação do projeto. 
+            </p>
+            
+            <p>
+                Em workteam um conjunto elementos de equipa podem ser representados. Cada utilizador tem de pelo
+                menos adicionar 1 link, que no caso de alunos da universidade será utilizado para representar o
+                link do seu github.
+            </p>
+            
+            <p>Na secção abstract podemos ter um conjunto de paragrafos, um conjunto de
+            palavras em <b>bold</b> ou em <i>itálico</i> ou <link href="">links</link>
+            </p>
+            
+            <p>
+                Por fim em deliverables podemos conter um conjunto de parafrafos ou de <link href="">links</link>.
+            </p>
+        </paragrafos>
+    </abstract>
+    <deliverables>
+        <p>
+            O enunciado deste exercicio pode ser encontrado em:
+        </p>
+        <link href="http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/PR.htm"></link>
+    </deliverables>
+</registo-de-projeto>
