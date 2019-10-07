@@ -25,7 +25,7 @@
     <xsl:template match="ARQELEM" mode="index">
         <li> 
             <a name="{generate-id()}"/>
-            <a href="arqsit-{generate-id()}.html"><xsl:value-of select="IDENTI"/></a>
+            <a href="Arq/arqsit-{generate-id()}.html"><xsl:value-of select="IDENTI"/></a>
         </li>
     </xsl:template>
     
