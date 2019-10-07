@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/joaocosteira/Desktop/cenas_Dweb/tp3/pr.dtd">
+<pr>
+    <metadata>
+        <keyname>MIEI_DWeb_2019_2020</keyname>
+        <title>Trabalho prático</title>
+        <subtitle>Xtensible Stylesheet Language</subtitle>
+        <supervisor>José Carlos Ramalho</supervisor>
+        <bdate>01/10/2019</bdate>
+        <edate>08/09/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A78073</identifier>
+            <name>João Costeira Faria Gomes</name>
+            <email>a78073@alunos.uminho.pt</email>
+            <git>https://github.com/joaocosteira</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            O trabalho prático número três tem como objetivo a partir trabalho prático da semana anterior (ficheiro <i>.dtd</i> gerar <i>xml</i>) gerar paginas <u>html</u>. 
+        </p>
+    </abstract>
+</pr>
