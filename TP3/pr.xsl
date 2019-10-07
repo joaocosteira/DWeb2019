@@ -10,6 +10,8 @@
     <!--
         Parse da informação do header 
     -->
+    
+    <!--Match da root do html -> Definimos os headers da pagina-->
     <xsl:template match="/">
         <html>
             <head>
@@ -66,7 +68,7 @@
         
     </xsl:template>
     
-    <!--Parse da informação-->
+    <!--Parse do workteam-->
     
     <xsl:template match="workteam">
         <hr />
@@ -84,10 +86,12 @@
     <!--
      Informação do abstract
     -->
-    <xsl:template match="abstract/p">
+    <xsl:template match="abstract">
         <hr /><hr />
-        <h3>Abstract</h3>
-        <xsl:copy-of select="."></xsl:copy-of>
+       <h3>Abstract</h3> 
+        <xsl:for-each select="p">
+            <p> <xsl:value-of select="."/></p>
+        </xsl:for-each>
     </xsl:template>
     
     <!--

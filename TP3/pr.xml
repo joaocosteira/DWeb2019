@@ -21,5 +21,11 @@
         <p>
             O trabalho prático número três tem como objetivo a partir trabalho prático da semana anterior (ficheiro <i>.dtd</i> gerar <i>xml</i>) gerar paginas <u>html</u>. 
         </p>
+        <p>
+            Inicialmente o trabalho consistiu em pegar na versão do ficheiros <b>pr.dtd</b> padronizada feito na aula prática desta semana.
+            Após a produção desse ficheiro, o proximo passo é o desenvolvimento do ficheiro <b>pr.xsl</b>. Neste ficheiro, vamos indicar como representar estilisticamente cada
+            um dos elementos dos dados armazenados em xml, a fim de com o auxilio do <u>oxygem xml editor</u> representar os elementos numa página gtml.
+        </p>
+        
     </abstract>
 </pr>

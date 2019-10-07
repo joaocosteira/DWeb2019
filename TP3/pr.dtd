@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Este ficheiro dtd é a versão resolvida pelo professor na aula, de modo a possuir uma versão
+padronizada para todos os alunos.
+-->
 <!ELEMENT pr (metadata,workteam,abstract,deliverables?) >
 
 <!ELEMENT metadata (keyname,title,subtitle?,supervisor,bdate,edate) >
@@ -22,7 +27,11 @@
 <!ELEMENT abstract (p+)>
 
 <!ELEMENT p (#PCDATA|b|i|u|xref)* >
-
+<!--
+O professor na aula determinou que elementos como bold italico etc, de certa maneira são como
+fossem tipos "recursivos", ou seja, eles podem conter dentro deles outros valores de representação estilistica, menos
+ele próprio.
+-->
 <!ELEMENT b (#PCDATA|i|u|xref)* >
 <!ELEMENT i (#PCDATA|b|u|xref)* >
 <!ELEMENT u (#PCDATA|i|b|xref)* >
@@ -30,7 +39,9 @@
 <!ELEMENT xref (#PCDATA) >
 <!ATTLIST xref
             url CDATA #REQUIRED>
-            
+
+<!--O professor decidiu a descrição ser opcional-->
+
 <!ELEMENT deliverables (deliverable+) >
 <!ELEMENT deliverable (#PCDATA) >
 <!ATTLIST deliverable
