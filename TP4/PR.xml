@@ -19,7 +19,8 @@
     </workteam>
     <abstract>
         <p>
-            O trabalho prático número quatro consiste numa primeira fase em separar o conteúdo do ficheiro <u>arq.xml</u> e armazená-lo na diretoria <i>dataset</i>, recorrendo à <i>stylesheet xml-slip</i> .
+            O trabalho prático número quatro consiste numa primeira fase em separar o conteúdo do ficheiro <u>arq.xml</u> e armazená-lo na diretoria <i>dataset</i>, recorrendo à <i>stylesheet xml-slip</i> 
+            . Por fim, foi definido um servidor em javascript que permite observar cada uma das paginas em localhost na porta 7777.
         </p>
         
         
