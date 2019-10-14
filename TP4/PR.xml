@@ -4,7 +4,7 @@
     <metadata>
         <keyname>MIEI_DWeb_2019_2020</keyname>
         <title>Trabalho prático</title>
-        <subtitle>Xtensible Stylesheet Language</subtitle>
+        <subtitle>TP4:xsl e servidor em js</subtitle>
         <supervisor>José Carlos Ramalho</supervisor>
         <bdate>08/10/2019</bdate>
         <edate>14/09/2019</edate>
@@ -19,7 +19,7 @@
     </workteam>
     <abstract>
         <p>
-            O trabalho prático número quatro.
+            O trabalho prático número quatro consiste numa primeira fase em separar o conteúdo do ficheiro <u>arq.xml</u> e armazená-lo na diretoria <i>dataset</i>, recorrendo à <i>stylesheet xml-slip</i> .
         </p>
         
         
