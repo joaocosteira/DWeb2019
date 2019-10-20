@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/joaocosteira/Desktop/tp4/PR.dtd">
+<pr>
+    <metadata>
+        <keyname>MIEI_DWeb_2019_2020</keyname>
+        <title>Trabalho prático</title>
+        <subtitle>TP5:Servidor em js para a gestão de Tarefas</subtitle>
+        <supervisor>José Carlos Ramalho</supervisor>
+        <bdate>15/10/2019</bdate>
+        <edate>22/09/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A78073</identifier>
+            <name>João Costeira Faria Gomes</name>
+            <email>a78073@alunos.uminho.pt</email>
+            <git>https://github.com/joaocosteira</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            O trabalho prático número cinco consiste em apartir dos conhecimentos obtidos na aula, adaptar o código de modo a desenvolver um gestor de tarefas 
+           (servidor em java script). Na página principal (index) um utilizador pode adicionar uma nova tarefa e observar todas as tarefas já resistadas até ao momento, que são
+            armazenadas no ficheiro tarefas.json.
+        </p>
+        
+        
+    </abstract>
+</pr>
