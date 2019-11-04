@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/joaocosteira/Desktop/Daweb/DWeb2019/TP7/PR.dtd">
+<pr>
+    <metadata>
+        <keyname>MIEI_DWeb_2019_2020</keyname>
+        <title>Trabalho prático número 7</title>
+        <subtitle>TP7:Queries de Mongo e Terminar o exercício da aula</subtitle>
+        <supervisor>José Carlos Ramalho</supervisor>
+        <bdate>29/10/2019</bdate>
+        <edate>5/11/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A78073</identifier>
+            <name>João Costeira Faria Gomes</name>
+            <email>a78073@alunos.uminho.pt</email>
+            <git>https://github.com/joaocosteira</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Inicialmente foi pedido para terminar as queries de mongo feitas na aula. No ficheiro filmes_queries.txt encontra-se tanto a resolução da aula como a solução das 3 perguntas para tpc.
+           De seguida foi pedidio a terminação do exercicio do gestor de filmes. O gestor pode ser acedido pela porta 7777 do localhost, onde é permitida a inserção e remoção de filmes no sistema.
+        </p>
+        
+        
+    </abstract>
+</pr>
