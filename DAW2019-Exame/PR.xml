@@ -1,3 +1,30 @@
- <tal class="">
- aqui vou meter a descrição do fim e tal
- </tal>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr >
+<pr>
+    <metadata>
+        <keyname>MIEI_DWeb_2019_2020</keyname>
+        <title>Exame</title>
+        <subtitle>Exame de recurso de 27 de Janeiro </subtitle>
+        <supervisor>José Carlos Ramalho</supervisor>
+        <bdate>27/1/2020</bdate>
+        <edate>27/1/2020</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A78073</identifier>
+            <name>João Costeira Faria Gomes</name>
+            <email>a78073@alunos.uminho.pt</email>
+            <git>https://github.com/joaocosteira/DWeb2019/tree/master/DAW2019-Exame</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Neste ficheiro encontra-se a descrição do exame de recurso da unidade corricular de dweb.
+            Em relação ao processamento dos dados, foi efetuado o download do arquivo de musicas, inicialmente em xml, que posteriormente
+            foi convertido em json, com recurso a um convertor online.
+            Todas as tags que possuiam um @, esse caracter foi eleminado após a conversão dos dados.
+        </p>
+        
+        
+    </abstract>
+</pr>
