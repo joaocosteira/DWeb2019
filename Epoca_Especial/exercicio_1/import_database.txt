@@ -1,0 +1,1 @@
+mongoimport -d dwebepocaespecial -c filmes --jsonArray filmes.json
